@@ -2,9 +2,9 @@
 import { React, useState } from "react";
 import axios from "axios";
 import { useDispatch } from "react-redux";
-import { addUser } from "./utils/userSlice";
+import { addUser } from "../utils/userSlice";
 import { useNavigate } from "react-router-dom";
-import { BASE_URL } from "./utils/constrants";
+import { BASE_URL } from "../utils/constrants";
 
 const Login = () => {
     const [emailId, setEmailId] = useState("sourav@gmail.com");
