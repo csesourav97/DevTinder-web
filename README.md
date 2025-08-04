@@ -12,15 +12,17 @@
 - Create a Footer
 - Create a Login Page
 
--Install axios
--CORS => install cors in backend project => Add middleware with configuration : origin , credentials:true
+- Install axios
+- CORS => install cors in backend project => Add middleware with configuration : origin , credentials:true
 - wheneven making API call , pass in axios configuration => { withCredentials :true }
--Install react-redux +@reduxjs/toolkit -https://redux-toolkit.js.org/tutorials/quick-start
+- Install react-redux +@reduxjs/toolkit -https://redux-toolkit.js.org/tutorials/quick-start
 - configure store => Provider =>createSlice => add reducer to store
 - Add redux devtools in chrome
--Login and see if the data is comming properly into the store
--Navbar should update as soon as user logs in
+- Login and see if the data is comming properly into the store
+- Navbar should update as soon as user logs in
 - Refactor our code to add constants fle + create a components folder.
+- You should not be access other routes without login.
+- If token is not present redirect user to Login page.
 
 
 
