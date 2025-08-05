@@ -28,6 +28,7 @@
 - build the user card on the feed
 - Edit Profile feature
 - Show toast message on save of profile
+- see all my connections
 
 
 
