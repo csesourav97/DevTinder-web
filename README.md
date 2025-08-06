@@ -31,6 +31,12 @@
 - new page -see all my connections
 - new page - see all my connection requests
 - Feature- accept/reject connection requests.
+- Feature- Send /ignore the user card from feed
+
+Remaining:
+
+-Create sign up page for new user
+-E2E Testing
 
 
 
